@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #555;
+  /* background: #f4f4f4; */ 
+  padding: 40px 20px;
+}
+
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-left: 2px solid #82d4f5;
+  border-right: 2px solid #82d4f5;
+  padding: 20px 60px 80px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 35%;
+  padding: 50px 40px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.author strong {
+  display: block;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.author span {
+  color: #4a90e2;
+  font-size: 13px;
+}
+
+.text-col {
+  width: 60%;
+  padding-top: 15px;
+}
+
+.text-col p {
+  font-size: 15px;
+  color: #666;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.text-col .bold {
+  font-weight: bold;
+  color: #333;
+}
